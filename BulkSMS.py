@@ -5,7 +5,7 @@ from openpyxl import Workbook, load_workbook
 log.basicConfig(filename='ActivityLog.log', level=log.DEBUG, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 #Variables
-wb = load_workbook('data.xlsx')
+wb = load_workbook('data.xlsx') #name of data file goes here
 ws = wb['Sheet1'] #ws is woksheet [Sheet1] in workbook wb
 firstNames = []
 lastNames = []
